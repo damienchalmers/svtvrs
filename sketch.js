@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1200, 1697);
+  createCanvas(500, 707);
   pixelDensity(2);
   //background(255);  // Set a white background
   
