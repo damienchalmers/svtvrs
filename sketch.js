@@ -1,4 +1,4 @@
-let W = 16717;
+let W = 1671;
 let pageNumber;
 let customFont; // Variable to hold the custom font
 
