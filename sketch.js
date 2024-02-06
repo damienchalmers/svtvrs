@@ -56,7 +56,7 @@ function setup() {
   textFont(customFont); // Set the custom font
   fill(0, 0, 0); // Set the text color/opacity
   pageNumber = generateRomanNumeral(Math.floor(random(1, 1000))); // Generate a random page number between 1 and 100 in Roman numerals
-  text(pageNumber, width / 1, height - 50);
+  text(pageNumber, width / 2, height - 5);
 }
 
 function generateRomanNumeral(number) {
