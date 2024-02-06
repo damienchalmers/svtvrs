@@ -15,8 +15,8 @@ function setup() {
    // Create a background color with a subtle yellowing effect
   background(random(240, 255), random(220, 240), random(180, 200));
 
-  const marginX = 100; // Left and right margin
-  const marginY = 100; // Top and bottom margin
+  const marginX = 10; // Left and right margin
+  const marginY = 10; // Top and bottom margin
   const linesCount = Math.floor(random(20, 40)); // Random number of lines between 20 and 40
 
   strokeWeight(0.2);
