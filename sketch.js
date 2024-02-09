@@ -89,5 +89,5 @@ function generateRomanNumeral(number) {
 }
 
 function mousePressed() {
-  saveFrames('ecriture', 'png', 1, 1);
+  saveFrames('écrisuture', 'png', 1, 1);
 }
