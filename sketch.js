@@ -36,7 +36,7 @@ function setup() {
 
       let x = (I % W / 14 + noise(i + W) * 12) * 0.8 + marginX;
       let y = (I / W * 60 + 60 - sq(noise(i) * 8 - 6) + 29 * noise(i / 5) * 1.5) * 0.4 + marginY;
-      y += line * lineSpacing; // Adjust y for each line
+      y += line * lineSpacing; // Adjust y for each line 
 
       // Ensure that the last line fits within the canvas
       if (line === linesCount - 1) {
