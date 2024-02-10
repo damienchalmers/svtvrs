@@ -88,6 +88,6 @@ function generateRomanNumeral(number) {
   return result;
 }
 
-function mousePressed() {
-  saveFrames('écrisuture', 'png', 1, 1);
-}
+//function mousePressed() {
+//  saveFrames('écrisuture', 'png', 1, 1);
+//}
