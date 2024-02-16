@@ -15,7 +15,7 @@ function setup() {
    // Create a background color with a subtle yellowing effect
    //background(random(240, 255), random(220, 240), random(180, 200));
   
-  background(random(0, 255)); //greyscale
+  background(random(100, 255)); //greyscale
 
   const marginX = 10; // Left and right margin
   const marginY = 10; // Top and bottom margin
